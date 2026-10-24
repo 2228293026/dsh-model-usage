@@ -46,4 +46,8 @@ plugin_manager  action=install_bundle  target=<本目录绝对路径>
 | `locale/*.json` | 插件管理页显示用标题/描述 |
 | `icon.svg` | 插件图标 |
 
+## 许可证
+
+本项目基于 [MIT](LICENSE) 协议开源，Copyright (c) 2026 HitMargin。
+
 [![](https://img.shields.io/badge/powered_by-dsh-4D6BFE?style=flat-square&logo=deepseek&logoColor=white)](https://github.com/deepseek-ai/deepseek-harness)

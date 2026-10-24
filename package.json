@@ -4,7 +4,13 @@
   "private": true,
   "type": "module",
   "description": "左侧栏「模型用量」面板：统计本机每个模型消耗的 Token 与请求数，并展示当前模型与已配置模型。",
-  "keywords": ["dsh", "dsh-plugin", "usage", "tokens", "models"],
+  "keywords": ["dsh", "dsh-plugin", "dsh-model-usage", "usage", "tokens", "models"],
+  "license": "MIT",
+  "author": "HitMargin",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/2228293026/dsh-model-usage.git"
+  },
   "exports": {
     ".": "./index.js",
     "./client": "./client.js",
@@ -16,7 +22,9 @@
     "client.js",
     "cordis.patch.yml",
     "locale/*.json",
-    "icon.svg"
+    "icon.svg",
+    "README.md",
+    "LICENSE"
   ],
   "dsh": {
     "bundle": { "patch": "./cordis.patch.yml" },
