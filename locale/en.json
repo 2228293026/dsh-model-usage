@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Model Usage",
+    "description": "Adds a sidebar panel that counts tokens and requests per model from local sessions, beside the current model and the configured model catalog."
+  }
+}
